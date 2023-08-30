@@ -1,13 +1,13 @@
 
-var celsiusTemperatures: number[] = [37, 0, -10, 15]; // Example input array
-var fahrenheitTemperatures: number[] = convertCelsiusArrayToFahrenheit(celsiusTemperatures);
+var tempInCels: number[] = [37, 0, -10, 15];
+var tempInFh: number[] = convertCelsToFh(tempInCels);
 
 function convertToFahrenheit(celsius: number): number 
 {
   return (celsius * 9/5) + 32;
 }
 
-function convertCelsiusArrayToFahrenheit(celsiusTemperatures: number[]): number[] 
+function convertCelsToFh(celsiusTemperatures: number[]): number[] 
 {
   var fahrenheitTemperatures: number[] = [];
   
@@ -22,7 +22,7 @@ function convertCelsiusArrayToFahrenheit(celsiusTemperatures: number[]): number[
   return fahrenheitTemperatures;
 }
 console.log("--------------------------------------------------------------------");
-console.log("Temperatures in Celsius   :",celsiusTemperatures);
+console.log("Temperatures in Celsius   :",tempInCels);
 console.log("--------------------------------------------------------------------");
-console.log("Temperatures in Fahrenheit:", fahrenheitTemperatures);
+console.log("Temperatures in Fahrenheit:", tempInFh);
 console.log("--------------------------------------------------------------------");
