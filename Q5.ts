@@ -1,7 +1,7 @@
 //Q No.5.	Create a function that takes a positive integer as 
 //parameter and uses a while loop to calculate and return the 
 //factorial of that number.
-var 
+
 function factorial(num:number) 
 {
     var num1:number=1
