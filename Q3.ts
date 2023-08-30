@@ -6,3 +6,4 @@ while (integer<=25)
     console.log(integer)
     integer++    
 }
+
