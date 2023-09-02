@@ -9,7 +9,6 @@ function takeValueInarray(index1:number,index2:number,studentName:string)
     studeNames.splice(index1,index2,studentName)
     return studeNames
 }
+
 var newArray=takeValueInarray(2,0,"Sabri")
 console.log(newArray)
-
-
